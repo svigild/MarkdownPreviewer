@@ -1,0 +1,58 @@
+* {
+
+}
+
+.App {
+    margin: auto;
+    width:80em;
+    height: auto;
+    border: none;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: black;
+    -webkit-box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
+}
+
+#editor {
+    background-color: #cddc39;
+    height: 250px;
+    width:98.3%;
+    font-size:1.3em;
+    padding:10px;
+    overflow:scroll;
+    scroll-behavior: smooth;  
+}
+
+#editor-title {
+    background-color: #8f9a27;
+    text-align: center;
+    padding: 10px;
+    height: 70px;
+}
+
+#preview-container {
+    height: auto;
+    width:100%;
+    color:white;
+}
+
+#preview {
+    background-color: black;
+    width:98.4%;
+    font-size:1em;
+    padding:10px;
+}
+
+#preview-title {
+    background-color: #8f9a27;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    height: 70px;
+    font-size:17px;
+}
+
